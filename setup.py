@@ -96,7 +96,7 @@ class CMakeBuild(build_ext):
 # Note to self to build and upload skip existing:
 #   python setup.py sdist bdist_wheel
 #   twine upload dist/* --skip-existing
-with open("readme.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name='binary2strings',
